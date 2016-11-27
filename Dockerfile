@@ -10,5 +10,5 @@ COPY endpoints.json /opt/moto/
 # Default port that moto listens on.
 EXPOSE 5000
 
-ENTRYPOINT ["moto_server"]
-CMD ["--help"]
+
+CMD ["moto_server","--help"]
